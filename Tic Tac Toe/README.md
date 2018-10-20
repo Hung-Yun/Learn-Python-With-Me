@@ -1,9 +1,8 @@
-# Python 101
+# Tic Tac Toe
 
-<br/>This repository was created for educational purposes.
-<br/>
-<br/>It contains the very basic concepts and can help newcomers learn.
-<br/>
-<br/>Please leave a comment or pull requests if you want to share some new projects.
-<br/>
-<br/>You can also fork this repo and add your own projects as well.
+<br/>The game starts out with an empty game board like this
+<br/>game = [[0, 0, 0],[0, 0, 0],[0, 0, 0]]
+<br/>Ask the user to enter coordinates in the form “row,col”, a number, then a comma, then a number.
+<br/>Then you can use your Python skills to figure out which row and column they want their piece to be in.
+<br/>I want to move starting from (1, 1) instead of (0, 0).
+<br/>To people who don’t program, starting to count at 0 is a strange concept
