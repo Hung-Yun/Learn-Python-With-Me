@@ -13,7 +13,7 @@ def main():
 
     # The number of digits is determined by getcontext().prec
     n = int(input("How many digits of e would you like?"))
-    getcontext().prec = n+1
+    getcontext().prec = 10
     
     e = 0
     
