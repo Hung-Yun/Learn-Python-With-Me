@@ -13,15 +13,24 @@ Display all the Happy Numbers in from 1 to 1000.
 Happylist = []
 
 for n in range(1,1000):
+
+    # Add up all the square value of each digit in n
     a = sum([ int(i)**2 for i in list(str(n)) ])
+
     while True:
-            if a == 1:
-                Happylist.append(n)
-                break
-            elif a == 4:
-                break
-            else:
-                m = list(str(a))
-                a = sum([ int(i)**2 for i in m ])
+
+        # a == 1 means Happy number!
+        if a == 1:
+            Happylist.append(n)
+            break
+
+        # a == 4 means it will enter an evil loop and never ends!
+        elif a == 4:
+            break
+
+        # Just do the same thing, adding up the square value of each digit, but use m because I don't want to erase n.
+        else:
+            m = list(str(a))
+            a = sum([ int(i)**2 for i in m ])
                 
 print(Happylist)
