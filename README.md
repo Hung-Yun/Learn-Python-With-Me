@@ -1,6 +1,6 @@
 # Python 101
 
-## Shortcut through the forest 
+## A shortcut through the woods 
 
 I follow the footprints of many masters as I travelled through the forest of learning Python.
 And as I have heard, it's better to leave some bread crumbs since I am definitely not the last one self-learning Python and figuring what is the best way of coding.
@@ -39,6 +39,7 @@ The programs in this file is the most basic concepts one should proceed in pytho
 <br/>**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 <br/>**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one. 
 <br/>**Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+<br/>**Happy Number** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display all the Happy Numbers in from 1 to 1000.
 
 ### Little Game
 
