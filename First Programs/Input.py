@@ -5,8 +5,7 @@ This project is to show how to input information.
 
 """
 
-def main(): # wrapper function
-
+def main(): 
     name = input("[Please enter your name.] ")
     print("Hi, {}. Nice to see you. ".format(name))
     age = input("[How old are you.] ")
