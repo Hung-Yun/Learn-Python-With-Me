@@ -1,6 +1,6 @@
 # Python 101
 
-## Shortcut through the forest 
+## A shortcut through the woods 
 
 I follow the footprints of many masters as I travelled through the forest of learning Python.
 And as I have heard, it's better to leave some bread crumbs since I am definitely not the last one self-learning Python and figuring what is the best way of coding.
